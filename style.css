@@ -1,0 +1,96 @@
+/* style7.css placeholder - Add your 300+ line CSS here */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #222;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.7;
+}
+
+.portfolio-wrapper {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.portfolio-name {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 300;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.portfolio-interest {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: 400;
+    border-left: 4px solid #222;
+    padding-left: 12px;
+    margin-top: 35px;
+}
+
+ul li {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+    transition: background-color 0.2s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.portfolio-project-gallery img {
+    width: 30%;
+    margin: 1%;
+    border-radius: 6px;
+    transition: all 0.3s;
+    filter: grayscale(100%);
+}
+
+.portfolio-project-gallery img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.certificates-gallery img {
+    width: 120px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.certificates-gallery img:hover {
+    border-color: #222;
+    transform: scale(1.05);
+}
+
+.portfolio-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-footer a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.portfolio-footer a:hover {
+    background: #555;
+}
